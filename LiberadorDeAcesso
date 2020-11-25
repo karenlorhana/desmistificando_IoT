@@ -70,7 +70,7 @@ void efeitoPermitido() {
 
 void efeitoNegado() {
   lcd.clear();
-  lcd.setCursor(5, 0); //Define em qual parte do LCD a mensagem será exibida
+  lcd.setCursor(5, 0); //Define em qual parte do LCD a mensagem será exibida.
   lcd.print("Lotado!");
   lcd.setCursor(1, 1); //Define em qual parte do LCD a mensagem será exibida
   lcd.print("Acesso negado!");
